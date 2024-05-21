@@ -33,25 +33,25 @@ class test_Place(test_basemodel):
         new = self.value()
         self.assertNotEqual(type(new.description), str)
 
-    def test_numRooms(self):
+    def test_number_rooms(self):
         """ """
         new = self.value()
-        self.assertNotEqual(type(new.numRooms), int)
+        self.assertNotEqual(type(new.number_rooms), int)
 
-    def test_numBath(self):
+    def test_number_bathrooms(self):
         """ """
         new = self.value()
-        self.assertNotEqual(type(new.numBath), int)
+        self.assertNotEqual(type(new.number_bathrooms), int)
 
-    def test_maxGuest(self):
+    def test_max_guest(self):
         """ """
         new = self.value()
-        self.assertNotEqual(type(new.maxGuest), int)
+        self.assertNotEqual(type(new.max_guest), int)
 
-    def test_nightPrice(self):
+    def test_price_by_night(self):
         """ """
         new = self.value()
-        self.assertNotEqual(type(new.nightPrice), int)
+        self.assertNotEqual(type(new.price_by_night), int)
 
     def test_latitude(self):
         """ """
