@@ -4,7 +4,7 @@ interpreter
 """
 import cmd
 import re
-from models import storage
+from models.__init__ import storage
 from models.amenity import Amenity
 from models.base_model import BaseModel
 from models.city import City
